@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="bg-warning py-2"> 
+         Some top header info 
+        </div>
+        
+        <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-primary">
+         <div class="container">
+              <a class="navbar-brand" href="#">Brand</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="main_nav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
+            <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
+            </ul>
+          </div> <!-- navbar-collapse.// -->
+         </div> <!-- container-fluid.// -->
+        </nav>
+        </header>
+
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error alias aliquam, soluta fugiat impedit architecto nam totam itaque numquam repudiandae iusto tenetur accusantium quod rerum consequuntur ducimus quidem ea blanditiis ullam! Unde similique rerum recusandae. Inventore provident libero doloribus neque cum officia, labore voluptatibus corporis odio eius delectus consequatur perferendis, adipisci pariatur debitis? Delectus magnam, quibusdam beatae molestias debitis quo aperiam numquam doloremque ut, excepturi perspiciatis. Laborum vitae fugiat fugit adipisci ab vel doloremque ducimus nobis consectetur earum non possimus dicta minus itaque, tempora iusto dolor, dolorem suscipit eveniet recusandae reprehenderit. Est, facilis quasi ea dolore iure voluptatum architecto vel dolorum exercitationem quam, mollitia similique ad a. Eos atque provident reprehenderit commodi totam aliquid quibusdam ex, reiciendis, illum illo soluta doloremque quia sequi quam voluptatum delectus temporibus alias voluptate eveniet quo deserunt eaque. Ut repudiandae eum tempore aspernatur vitae minus. Ducimus culpa quibusdam, aliquam suscipit delectus ad dolorum dolores quisquam, molestias voluptatibus earum, maxime consequatur provident? Debitis illo, natus tempora autem ex consectetur a dolor quasi? Culpa debitis molestiae consequuntur sint commodi facere vitae? Quisquam illum nam recusandae sunt sed numquam blanditiis. Quo voluptate fuga facere vel. Qui, aspernatur voluptatem? Quam, reprehenderit culpa! Accusamus ullam fugiat consectetur nemo aliquid facere accusantium rerum. Vitae quasi iusto modi blanditiis exercitationem, natus dolorum iste ducimus corporis nemo earum eius aperiam quia quidem sed aut id, rem perferendis ullam iure veritatis dolorem placeat delectus. Soluta aperiam repellat quibusdam blanditiis ut officia maiores, quasi error omnis, non ad aut, beatae praesentium! Temporibus possimus culpa est nemo ut dicta assumenda molestias architecto, blanditiis at, dolorum ad aspernatur optio nisi rem perferendis iure neque repellendus? Aliquam ratione nostrum laudantium? Nisi iste consequatur tempore soluta vel sed magnam. Molestiae, debitis magnam in corporis maxime distinctio dignissimos nesciunt! Consequatur dicta unde doloribus assumenda repellat perferendis fugit enim vitae? Itaque aliquid nam ex non quod ab facere vero, est possimus blanditiis dolorem illum distinctio dolores. Voluptatum modi consectetur velit eligendi iure? Sapiente architecto repudiandae quisquam dolore incidunt tempore tempora vel placeat itaque magni sequi eveniet ipsam, similique ea quae molestiae pariatur ducimus provident saepe rerum nostrum, ullam quasi! Illum autem repellendus minima dicta odit enim, hic tempora ab minus quibusdam eius commodi quia! Odit expedita nam iste minus rerum, sequi voluptas, odio totam molestiae nisi numquam ullam provident repellendus nemo omnis. Repellendus nesciunt voluptas veniam iste nobis unde? Quis, harum dolorum aliquam laboriosam libero impedit quod, obcaecati mollitia aliquid ducimus odio voluptatibus hic sint. Eos totam voluptas nostrum sapiente ipsa, nesciunt velit pariatur ratione provident enim maxime, quos cupiditate explicabo debitis molestias ducimus quia nihil autem at soluta in itaque, neque fugit! Aliquid sunt excepturi dignissimos repellat, corporis harum ab corrupti natus velit atque quas cum officia quod molestias a neque iure voluptatem ipsa, iusto magni voluptate eos, voluptatibus eveniet deleniti! Numquam dolorem itaque consequuntur amet blanditiis architecto eligendi deleniti temporibus, qui est ex exercitationem ducimus nihil officia! Inventore, doloribus. At, sint molestias. Quis expedita quos deleniti quibusdam, obcaecati deserunt sapiente, molestiae unde error nemo harum quisquam architecto aliquid est sed! Ipsum itaque dolor non dolore consequuntur aliquam, earum illo nam sunt voluptas numquam nesciunt aut incidunt facilis sit ratione maiores ut laborum libero placeat iure, iste quod quas tempore. Similique, porro eveniet suscipit amet vitae accusantium quam, cupiditate libero reiciendis, dolorem sed commodi eaque sequi dignissimos tempore. Deleniti adipisci fuga, iste, a dolorum libero nam velit ducimus dignissimos nisi similique nostrum eveniet, earum aut culpa officiis magnam praesentium amet quas in cum soluta autem! Corporis laborum magni commodi nulla. Laboriosam porro expedita ratione, nostrum nesciunt a itaque architecto possimus error commodi, quas aliquam! Accusamus facere ipsa aliquid accusantium eum.
+        </div>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function(){
+  window.addEventListener('scroll', function() {
+      if (window.scrollY > 50) {
+        document.getElementById('navbar_top').classList.add('fixed-top');
+        // add padding top to show content behind navbar
+        navbar_height = document.querySelector('.navbar').offsetHeight;
+        document.body.style.paddingTop = navbar_height + 'px';
+      } else {
+        document.getElementById('navbar_top').classList.remove('fixed-top');
+         // remove padding top from body
+        document.body.style.paddingTop = '0';
+      } 
+  });
+}); 
+        </script>
+</body>
+</html>
